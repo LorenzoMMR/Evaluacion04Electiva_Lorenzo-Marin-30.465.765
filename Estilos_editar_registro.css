@@ -1,0 +1,72 @@
+/* Estilos para el formulario de edición de registro */
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden; /* Evita la aparición de la barra de desplazamiento horizontal */
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #282828;
+    margin-bottom: 50px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    background-color: #1a1a1a;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus {
+    border-bottom: 2px solid #00bfff;
+  }
+  
+  button[type="submit"] {
+    background-color: #00bfff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #009acd;
+  }
